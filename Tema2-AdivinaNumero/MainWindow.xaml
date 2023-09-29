@@ -1,0 +1,16 @@
+﻿<Window x:Class="Tema2_AdivinaNumero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_AdivinaNumero"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="237" Width="641">
+    <Grid>
+        <Button x:Name="restartButton" Content="REINICIAR" HorizontalAlignment="Left" Margin="80,124,0,0" VerticalAlignment="Top" Click="ReniciarButton_Click"/>
+        <Button x:Name="tryButton" Content="Comprobar" HorizontalAlignment="Left" Margin="444,96,0,0" VerticalAlignment="Top" Click="AdivinarButton_Click" Width="76"/>
+        <TextBlock x:Name="textoTextBlock" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Intenta adivinar el número del 0 al 100, incluyendolos" VerticalAlignment="Top" Width="621" Height="53" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="textoTextBox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="101" Height="18" TextAlignment="Center"/>
+
+    </Grid>
+</Window>
