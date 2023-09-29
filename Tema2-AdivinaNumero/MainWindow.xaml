@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_AdivinaNumero"
         mc:Ignorable="d"
-        Title="MainWindow" Height="237" Width="641">
+        Title="Adivina el número" Height="237" Width="641">
     <Grid>
         <Button x:Name="restartButton" Content="REINICIAR" HorizontalAlignment="Left" Margin="80,124,0,0" VerticalAlignment="Top" Click="ReniciarButton_Click"/>
         <Button x:Name="tryButton" Content="Comprobar" HorizontalAlignment="Left" Margin="444,96,0,0" VerticalAlignment="Top" Click="AdivinarButton_Click" Width="76"/>
